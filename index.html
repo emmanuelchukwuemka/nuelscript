@@ -1,0 +1,1532 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Nweke Emmanuel Ugwa - Senior Backend & Full-Stack Software Developer specializing in Fintech, High-Concurrency Payment Switching, Microservices, and Distributed Systems.">
+  <meta name="keywords" content="Nweke Emmanuel Ugwa, Backend Developer, Fintech Engineer, Payment Switching, Java Spring Boot, Go, Golang, Python, Microservices, Portfolio">
+  <meta name="author" content="Nweke Emmanuel Ugwa">
+  <title>Nweke Emmanuel Ugwa | Senior Backend & Full-Stack Engineer</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="assets/emma.jpg">
+  <link rel="apple-touch-icon" href="assets/emma.jpg">
+
+  <!-- Open Graph / Facebook / LinkedIn -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://emmanuelportfoilo.netlify.app/">
+  <meta property="og:title" content="Nweke Emmanuel Ugwa | Senior Backend & Full-Stack Engineer">
+  <meta property="og:description" content="Portfolio of Nweke Emmanuel Ugwa - Senior Backend & Full-Stack Software Developer specializing in Fintech, High-Concurrency Payment Switching, Microservices, and Distributed Systems.">
+  <meta property="og:image" content="https://emmanuelportfoilo.netlify.app/assets/emma.jpg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://emmanuelportfoilo.netlify.app/">
+  <meta name="twitter:title" content="Nweke Emmanuel Ugwa | Senior Backend & Full-Stack Engineer">
+  <meta name="twitter:description" content="Portfolio of Nweke Emmanuel Ugwa - Senior Backend & Full-Stack Software Developer specializing in Fintech, High-Concurrency Payment Switching, Microservices, and Distributed Systems.">
+  <meta name="twitter:image" content="https://emmanuelportfoilo.netlify.app/assets/emma.jpg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Reading Progress Bar -->
+  <div id="scroll-progress" class="scroll-progress-bar"></div>
+
+  <!-- Navigation -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-brand">
+        <span class="brand-code">&lt;</span>nuel<span class="brand-accent">script</span><span class="brand-code">/&gt;</span>
+      </a>
+
+      <nav class="nav-links" id="nav-menu">
+        <a href="#about" class="nav-link"><i class="fa-solid fa-user-ninja"></i> About</a>
+        <a href="#skills" class="nav-link"><i class="fa-solid fa-layer-group"></i> Skills</a>
+        <a href="#experience" class="nav-link"><i class="fa-solid fa-briefcase"></i> Experience</a>
+        <a href="#projects" class="nav-link"><i class="fa-solid fa-diagram-project"></i> Projects</a>
+        <a href="#terminal" class="nav-link"><i class="fa-solid fa-terminal"></i> Terminal</a>
+        <a href="#contact" class="nav-link"><i class="fa-solid fa-paper-plane"></i> Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="assets/Nweke_Emmanuel_Ugwa_Resume.pdf" download class="icon-btn nav-cv-icon" aria-label="Download CV" title="Download CV">
+          <i class="fa-solid fa-file-arrow-down"></i>
+        </a>
+        <button id="theme-toggle" class="icon-btn" aria-label="Toggle theme" title="Toggle dark/light mode">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <a href="assets/Nweke_Emmanuel_Ugwa_Resume.pdf" download class="btn btn-outline nav-cta nav-cta-cv" title="Download CV">
+          <i class="fa-solid fa-file-arrow-down"></i> Download CV
+        </a>
+        <a href="#contact" class="btn btn-outline nav-cta">Let's Talk</a>
+        <button id="mobile-toggle" class="icon-btn mobile-menu-btn" aria-label="Toggle menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="hero-bg-shapes">
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+        <div class="grid-overlay"></div>
+      </div>
+
+      <div class="container hero-grid">
+        <div class="hero-content reveal-slide-left">
+          <div class="hero-profile-badge">
+            <div class="hero-avatar-ring">
+              <img src="assets/emma.jpg" alt="Nweke Emmanuel Ugwa" class="hero-avatar-photo" />
+              <span class="hero-online-status"></span>
+            </div>
+            <div class="hero-badge-info">
+              <span class="hero-badge-name">Nweke Emmanuel Ugwa</span>
+              <span class="hero-badge-tag">Senior Backend Engineer</span>
+            </div>
+          </div>
+
+          <div class="status-pill">
+            <span class="status-dot"></span>
+            <span>Available for Senior Engineering Roles & Mobile / Backend Consulting</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Nweke Emmanuel Ugwa</span>
+          </h1>
+
+          <div class="dynamic-roles">
+            <span class="role-prefix">Specialized in</span>
+            <span id="typed-role" class="typed-text"></span>
+            <span class="typed-cursor">|</span>
+          </div>
+
+          <p class="hero-bio">
+            Senior Full-Stack, Backend & Mobile App Developer with over <strong>6+ years of professional experience</strong> engineering high-performance web and mobile platforms across <strong>Laravel</strong>, <strong>Next.js</strong>, <strong>React</strong>, <strong>Vue.js</strong>, <strong>Flutter</strong>, and <strong>React Native</strong>, paired with robust backend payment switching engines in <strong>Java (Spring Boot)</strong> and <strong>Go</strong>.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary pulse-btn">
+              <i class="fa-solid fa-arrow-down"></i> Explore Architectures
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <i class="fa-solid fa-envelope"></i> Get in Touch
+            </a>
+            <a href="assets/Nweke_Emmanuel_Ugwa_Resume.pdf" download class="btn btn-secondary">
+              <i class="fa-solid fa-file-arrow-down"></i> Download Resume
+            </a>
+            <a href="https://github.com/emmanuelchukwuemka" target="_blank" rel="noopener noreferrer" class="btn btn-icon" title="Emmanuel's GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <button id="copy-email-hero" class="btn btn-icon" title="Copy Email">
+              <i class="fa-regular fa-copy"></i>
+            </button>
+          </div>
+
+          <div class="hero-social-strip">
+            <div class="social-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Umuahia, Abia, Nigeria</span>
+            </div>
+            <div class="social-item">
+              <i class="fa-solid fa-phone"></i>
+              <a href="tel:+2348102510452">+234 810 251 0452</a>
+            </div>
+            <div class="social-item">
+              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:nwekee125@gmail.com">nwekee125@gmail.com</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Card / Live Microservice Architecture Mockup -->
+        <div class="hero-visual reveal-slide-right">
+          <div class="code-card floating-card">
+            <div class="code-card-header">
+              <div class="window-buttons">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <div class="window-title">
+                <i class="fa-solid fa-bolt"></i> payment_switching_engine.go
+              </div>
+              <span class="badge live-badge">ONLINE • 99.99%</span>
+            </div>
+            <div class="code-card-body">
+              <pre><code><span class="code-comment">// High-Concurrency Switch Routing Daemon</span>
+<span class="code-keyword">package</span> switchcore
+
+<span class="code-keyword">func</span> <span class="code-func">RouteTransaction</span>(ctx context.Context, tx *Transaction) (*RoutingResult, error) {
+    <span class="code-keyword">select</span> {
+    <span class="code-keyword">case</span> s.GoroutinePool &lt;- <span class="code-keyword">struct</span>{}{}:
+        <span class="code-keyword">defer func</span>() { &lt;-s.GoroutinePool }()
+        <span class="code-comment">// Host / Scheme Routing (30% latency drop)</span>
+        targetHost := s.RoutingScheme.<span class="code-func">ResolveHost</span>(tx.BIN)
+        res := s.SwitchClient.<span class="code-func">DispatchWithRetry</span>(ctx, targetHost, tx)
+        <span class="code-keyword">return</span> res, <span class="code-keyword">nil</span>
+    <span class="code-keyword">default</span>:
+        <span class="code-keyword">return</span> <span class="code-keyword">nil</span>, ErrTrafficSpikeMitigated
+    }
+}</code></pre>
+            </div>
+            <div class="code-card-footer">
+              <div class="stat-mini">
+                <span class="stat-mini-label">Throughput</span>
+                <span class="stat-mini-val">10,000+ req/s</span>
+              </div>
+              <div class="stat-mini">
+                <span class="stat-mini-label">Switch Latency</span>
+                <span class="stat-mini-val">&lt; 18ms</span>
+              </div>
+              <div class="stat-mini">
+                <span class="stat-mini-label">Uptime</span>
+                <span class="stat-mini-val">99.9% High Availability</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Metrics Counter Strip -->
+      <div class="container hero-metrics-wrapper">
+        <div class="metrics-grid">
+          <div class="metric-card reveal-slide-up delay-100">
+            <div class="metric-icon"><i class="fa-solid fa-clock-rotate-left"></i></div>
+            <div class="metric-number">6+</div>
+            <div class="metric-title">Years Experience</div>
+            <div class="metric-sub">Scalable Web, Mobile & Fintech SaaS</div>
+          </div>
+          <div class="metric-card reveal-slide-up delay-200">
+            <div class="metric-icon"><i class="fa-solid fa-gauge-high"></i></div>
+            <div class="metric-number">50%</div>
+            <div class="metric-title">Scale Boost</div>
+            <div class="metric-sub">Monolith to Microservices Transition</div>
+          </div>
+          <div class="metric-card reveal-slide-up delay-300">
+            <div class="metric-icon"><i class="fa-solid fa-server"></i></div>
+            <div class="metric-number">10k+</div>
+            <div class="metric-title">Req / Sec</div>
+            <div class="metric-sub">High-Concurrency Switching Engine</div>
+          </div>
+          <div class="metric-card reveal-slide-up delay-400">
+            <div class="metric-icon"><i class="fa-solid fa-shield-halved"></i></div>
+            <div class="metric-number">99.9%</div>
+            <div class="metric-title">High Availability</div>
+            <div class="metric-sub">High-Volume Financial Processing</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Infinite Sliding Marquee Strip (Blue, White, Black) -->
+    <section class="marquee-section">
+      <div class="marquee-wrapper">
+        <div class="marquee-track track-left">
+          <div class="marquee-item"><i class="fa-brands fa-laravel"></i> Laravel (PHP)</div>
+          <div class="marquee-item"><i class="fa-solid fa-n"></i> Next.js (SSR / SSG)</div>
+          <div class="marquee-item"><i class="fa-brands fa-vuejs"></i> Vue.js (Vue 3 & Nuxt)</div>
+          <div class="marquee-item"><i class="fa-brands fa-react"></i> React.js & Redux</div>
+          <div class="marquee-item"><i class="fa-solid fa-mobile-screen-button"></i> Flutter (iOS & Android)</div>
+          <div class="marquee-item"><i class="fa-brands fa-react"></i> React Native Mobile</div>
+          <div class="marquee-item"><i class="fa-brands fa-java"></i> Java (Spring Boot)</div>
+          <div class="marquee-item"><i class="fa-brands fa-golang"></i> Go (Golang)</div>
+          <div class="marquee-item"><i class="fa-solid fa-shuffle"></i> Payment Switching Engine</div>
+          <div class="marquee-item"><i class="fa-solid fa-bolt"></i> 10,000+ RPS Concurrency</div>
+          <!-- Duplicate for seamless infinite loop -->
+          <div class="marquee-item"><i class="fa-brands fa-laravel"></i> Laravel (PHP)</div>
+          <div class="marquee-item"><i class="fa-solid fa-n"></i> Next.js (SSR / SSG)</div>
+          <div class="marquee-item"><i class="fa-brands fa-vuejs"></i> Vue.js (Vue 3 & Nuxt)</div>
+          <div class="marquee-item"><i class="fa-brands fa-react"></i> React.js & Redux</div>
+          <div class="marquee-item"><i class="fa-solid fa-mobile-screen-button"></i> Flutter (iOS & Android)</div>
+          <div class="marquee-item"><i class="fa-brands fa-react"></i> React Native Mobile</div>
+          <div class="marquee-item"><i class="fa-brands fa-java"></i> Java (Spring Boot)</div>
+          <div class="marquee-item"><i class="fa-brands fa-golang"></i> Go (Golang)</div>
+          <div class="marquee-item"><i class="fa-solid fa-shuffle"></i> Payment Switching Engine</div>
+          <div class="marquee-item"><i class="fa-solid fa-bolt"></i> 10,000+ RPS Concurrency</div>
+        </div>
+      </div>
+
+      <div class="marquee-wrapper mt-marquee">
+        <div class="marquee-track track-right">
+          <div class="marquee-item"><i class="fa-brands fa-js"></i> TypeScript Frontend</div>
+          <div class="marquee-item"><i class="fa-solid fa-paintbrush"></i> Tailwind CSS</div>
+          <div class="marquee-item"><i class="fa-solid fa-cubes"></i> Inertia.js & Blade</div>
+          <div class="marquee-item"><i class="fa-solid fa-cloud"></i> Gateway-as-a-Service (SaaS)</div>
+          <div class="marquee-item"><i class="fa-solid fa-lock"></i> Financial Idempotency</div>
+          <div class="marquee-item"><i class="fa-solid fa-bolt"></i> Goroutines & Channels</div>
+          <div class="marquee-item"><i class="fa-solid fa-database"></i> PostgreSQL & Redis</div>
+          <div class="marquee-item"><i class="fa-solid fa-infinity"></i> Automated CI/CD Pipelines</div>
+          <div class="marquee-item"><i class="fa-solid fa-wifi"></i> Low-Latency WebSockets</div>
+          <div class="marquee-item"><i class="fa-solid fa-cubes-stacked"></i> Clean Architecture & OOP</div>
+          <!-- Duplicate for seamless infinite loop -->
+          <div class="marquee-item"><i class="fa-brands fa-js"></i> TypeScript Frontend</div>
+          <div class="marquee-item"><i class="fa-solid fa-paintbrush"></i> Tailwind CSS</div>
+          <div class="marquee-item"><i class="fa-solid fa-cubes"></i> Inertia.js & Blade</div>
+          <div class="marquee-item"><i class="fa-solid fa-cloud"></i> Gateway-as-a-Service (SaaS)</div>
+          <div class="marquee-item"><i class="fa-solid fa-lock"></i> Financial Idempotency</div>
+          <div class="marquee-item"><i class="fa-solid fa-bolt"></i> Goroutines & Channels</div>
+          <div class="marquee-item"><i class="fa-solid fa-database"></i> PostgreSQL & Redis</div>
+          <div class="marquee-item"><i class="fa-solid fa-infinity"></i> Automated CI/CD Pipelines</div>
+          <div class="marquee-item"><i class="fa-solid fa-wifi"></i> Low-Latency WebSockets</div>
+          <div class="marquee-item"><i class="fa-solid fa-cubes-stacked"></i> Clean Architecture & OOP</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header text-center reveal-slide-up">
+          <span class="section-badge"><i class="fa-solid fa-address-card"></i> ABOUT ME</span>
+          <h2 class="section-title">Architecting Resilient Systems That Scale Under Pressure</h2>
+          <p class="section-subtitle">Bridging financial domain complexity with modern distributed computing.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card-primary reveal-slide-left">
+            <div class="profile-header-strip">
+              <div class="profile-avatar">
+                <img src="assets/emma.jpg" alt="Nweke Emmanuel Ugwa" class="profile-avatar-img" />
+              </div>
+              <div>
+                <h3 class="profile-name">Nweke Emmanuel Ugwa</h3>
+                <p class="profile-role">Senior Backend Engineer & Fintech Systems Architect</p>
+                <span class="badge badge-subtle"><i class="fa-solid fa-graduation-cap"></i> B.Sc. Computer Science (2020)</span>
+              </div>
+            </div>
+
+            <p class="about-text">
+              I am a results-driven backend engineer and full-stack technologist with <strong>over 6 years of experience</strong> building high-reliability platforms. My expertise lies in designing transaction-safe financial switching layers, multi-tenant payment gateway APIs, and resilient microservices capable of handling millions of requests with strict fault tolerance.
+            </p>
+            <p class="about-text">
+              From leading legacy migrations at <strong>UrbanPay</strong> to building high-traffic mobile/web APIs at <strong>Bolosom</strong> and cross-platform experiences at <strong>IGHUB</strong>, I combine deep algorithmic concurrency models (Goroutines, worker channels, Java multithreading) with clean domain-driven architecture and rigorous automated testing.
+            </p>
+
+            <div class="about-highlights">
+              <div class="highlight-item">
+                <i class="fa-solid fa-check-circle"></i>
+                <span><strong>Multi-Tenant Gateway SaaS:</strong> Engineered payment endpoints consumed securely by fintechs and merchants.</span>
+              </div>
+              <div class="highlight-item">
+                <i class="fa-solid fa-check-circle"></i>
+                <span><strong>Host & Scheme Routing:</strong> Built dynamic transactional logic accelerating processing speed by 30%.</span>
+              </div>
+              <div class="highlight-item">
+                <i class="fa-solid fa-check-circle"></i>
+                <span><strong>Peak Traffic Concurrency:</strong> Handled thousands of simultaneous webhooks without dropped packets.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-card-secondary reveal-slide-right">
+            <h4 class="card-subtitle"><i class="fa-solid fa-compass"></i> Engineering Philosophy & Core Focus</h4>
+            
+            <div class="focus-stack">
+              <div class="focus-box">
+                <div class="focus-icon"><i class="fa-solid fa-network-wired"></i></div>
+                <div>
+                  <h5>Distributed Concurrency</h5>
+                  <p>Leveraging Go routines, channels, and Java virtual threads to conquer high-concurrency peak traffic hours.</p>
+                </div>
+              </div>
+
+              <div class="focus-box">
+                <div class="focus-icon"><i class="fa-solid fa-lock"></i></div>
+                <div>
+                  <h5>Fintech Security & Idempotency</h5>
+                  <p>Bulletproof transaction states, automated reconciliation, and cryptographic integrity across payment switches.</p>
+                </div>
+              </div>
+
+              <div class="focus-box">
+                <div class="focus-icon"><i class="fa-solid fa-cube"></i></div>
+                <div>
+                  <h5>Clean Architecture & OOP</h5>
+                  <p>Passionate about SOLID principles, test-driven reliability, and mentoring engineering teams in robust patterns.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="education-block">
+              <h5><i class="fa-solid fa-university"></i> Education & University</h5>
+              <div class="edu-item">
+                <div class="edu-year">Graduated 2020</div>
+                <div class="edu-details">
+                  <strong>B.Sc. in Computer Science</strong>
+                  <span>Michael Okpara University of Agriculture, Umudike</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header text-center reveal-slide-up">
+          <span class="section-badge"><i class="fa-solid fa-code"></i> CORE SKILLS</span>
+          <h2 class="section-title">Technical Competence & Toolchain</h2>
+          <p class="section-subtitle">Deep proficiency across language ecosystems, fintech architecture, and modern cloud infrastructure.</p>
+        </div>
+
+        <div class="skills-categories-grid">
+          <!-- Category 1: Mobile App Development (Flutter & React Native) -->
+          <div class="skill-category-card reveal-slide-up delay-100" style="border-color: rgba(59, 130, 246, 0.45); background: rgba(37, 99, 235, 0.05);">
+            <div class="category-header">
+              <div class="cat-icon" style="background: var(--accent-blue); color: #ffffff;"><i class="fa-solid fa-mobile-screen-button"></i></div>
+              <div>
+                <h3>Mobile App Development</h3>
+                <span>Cross-Platform iOS & Android (Flutter & React Native)</span>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag highlight"><i class="fa-solid fa-mobile-screen"></i> Flutter (Dart)</span>
+              <span class="skill-tag highlight"><i class="fa-brands fa-react"></i> React Native</span>
+              <span class="skill-tag"><i class="fa-solid fa-cubes"></i> BLoC & Riverpod</span>
+              <span class="skill-tag"><i class="fa-solid fa-code"></i> Redux Toolkit & Hooks</span>
+              <span class="skill-tag"><i class="fa-solid fa-credit-card"></i> Mobile Payment SDKs</span>
+              <span class="skill-tag"><i class="fa-solid fa-wifi"></i> WebSockets & Push Notifications</span>
+              <span class="skill-tag"><i class="fa-solid fa-database"></i> Offline-First Architecture & SQLite</span>
+              <span class="skill-tag"><i class="fa-brands fa-apple"></i> iOS App Store Deployment</span>
+              <span class="skill-tag"><i class="fa-brands fa-google-play"></i> Android Play Store Publishing</span>
+            </div>
+          </div>
+
+          <!-- Category 2: Modern Frontend & Full-Stack Frameworks -->
+          <div class="skill-category-card reveal-slide-up delay-150" style="border-color: rgba(59, 130, 246, 0.45); background: rgba(37, 99, 235, 0.05);">
+            <div class="category-header">
+              <div class="cat-icon" style="background: var(--accent-blue); color: #ffffff;"><i class="fa-brands fa-react"></i></div>
+              <div>
+                <h3>Frontend & Full-Stack Frameworks</h3>
+                <span>Modern Web, Reactive UIs & SSR/SSG</span>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag highlight"><i class="fa-brands fa-laravel"></i> Laravel (PHP, Blade, Inertia)</span>
+              <span class="skill-tag highlight"><i class="fa-solid fa-n"></i> Next.js (App Router, SSR, SSG)</span>
+              <span class="skill-tag highlight"><i class="fa-brands fa-react"></i> React.js (Hooks, Context, Redux)</span>
+              <span class="skill-tag highlight"><i class="fa-brands fa-vuejs"></i> Vue.js (Vue 3, Pinia, Nuxt.js)</span>
+              <span class="skill-tag"><i class="fa-brands fa-js"></i> TypeScript & JavaScript (ESNext)</span>
+              <span class="skill-tag"><i class="fa-solid fa-paintbrush"></i> Tailwind CSS & Shadcn UI</span>
+              <span class="skill-tag"><i class="fa-brands fa-html5"></i> HTML5 / Modern Responsive CSS3</span>
+              <span class="skill-tag"><i class="fa-solid fa-bolt"></i> Vite, Webpack & Turbopack</span>
+              <span class="skill-tag"><i class="fa-solid fa-arrows-rotate"></i> RESTful & GraphQL Client Fetching</span>
+              <span class="skill-tag"><i class="fa-solid fa-universal-access"></i> Web Accessibility (a11y) & Core Web Vitals</span>
+            </div>
+          </div>
+
+          <!-- Category 3: Backend & Systems Architecture -->
+          <div class="skill-category-card reveal-slide-up delay-200">
+            <div class="category-header">
+              <div class="cat-icon"><i class="fa-solid fa-server"></i></div>
+              <div>
+                <h3>Backend & Distributed Systems</h3>
+                <span>High-Performance APIs & Microservices</span>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag highlight"><i class="fa-brands fa-java"></i> Java (Spring Boot)</span>
+              <span class="skill-tag highlight"><i class="fa-brands fa-golang"></i> Go (Golang)</span>
+              <span class="skill-tag"><i class="fa-brands fa-python"></i> Python (Flask, Django)</span>
+              <span class="skill-tag"><i class="fa-brands fa-node-js"></i> Node.js & Express</span>
+              <span class="skill-tag"><i class="fa-solid fa-diagram-project"></i> Microservices Architecture</span>
+              <span class="skill-tag"><i class="fa-brands fa-ethereum"></i> Solidity (Web3 Smart Contracts)</span>
+              <span class="skill-tag"><i class="fa-solid fa-network-wired"></i> gRPC & RESTful APIs</span>
+            </div>
+          </div>
+
+          <!-- Category 2: Fintech Ecosystem -->
+          <div class="skill-category-card reveal-slide-up delay-200">
+            <div class="category-header">
+              <div class="cat-icon"><i class="fa-solid fa-credit-card"></i></div>
+              <div>
+                <h3>Fintech Ecosystem</h3>
+                <span>Switching & Transaction Architectures</span>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag highlight"><i class="fa-solid fa-shuffle"></i> Payment Switching Architecture</span>
+              <span class="skill-tag highlight"><i class="fa-solid fa-cloud"></i> Gateway-as-a-Service (SaaS)</span>
+              <span class="skill-tag"><i class="fa-solid fa-diagram-project"></i> Microservices Architecture</span>
+              <span class="skill-tag"><i class="fa-solid fa-bolt"></i> Goroutines & Channels</span>
+              <span class="skill-tag"><i class="fa-solid fa-gears"></i> Gin & Echo Frameworks</span>
+              <span class="skill-tag"><i class="fa-solid fa-database"></i> GORM</span>
+              <span class="skill-tag"><i class="fa-solid fa-arrows-split-up-and-left"></i> Host & Scheme Routing</span>
+              <span class="skill-tag"><i class="fa-solid fa-shield-virus"></i> Concurrency & Webhook Handlers</span>
+            </div>
+          </div>
+
+          <!-- Category 3: Database & Cloud -->
+          <div class="skill-category-card reveal-slide-up delay-300">
+            <div class="category-header">
+              <div class="cat-icon"><i class="fa-solid fa-server"></i></div>
+              <div>
+                <h3>Database & Cloud</h3>
+                <span>Data Stores, Caching & Containerization</span>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag"><i class="fa-solid fa-database"></i> PostgreSQL</span>
+              <span class="skill-tag"><i class="fa-solid fa-database"></i> MySQL</span>
+              <span class="skill-tag"><i class="fa-solid fa-leaf"></i> MongoDB</span>
+              <span class="skill-tag highlight"><i class="fa-solid fa-memory"></i> Redis (In-Memory Cache)</span>
+              <span class="skill-tag highlight"><i class="fa-brands fa-docker"></i> Docker</span>
+              <span class="skill-tag"><i class="fa-solid fa-dharmachakra"></i> Kubernetes</span>
+              <span class="skill-tag"><i class="fa-brands fa-git-alt"></i> Git & GitHub Actions</span>
+              <span class="skill-tag"><i class="fa-solid fa-network-wired"></i> RESTful & GraphQL APIs</span>
+            </div>
+          </div>
+
+          <!-- Category 4: Methodologies & Engineering Practices -->
+          <div class="skill-category-card reveal-slide-up delay-400">
+            <div class="category-header">
+              <div class="cat-icon"><i class="fa-solid fa-vial-circle-check"></i></div>
+              <div>
+                <h3>Methodologies & Practices</h3>
+                <span>Reliability, Quality & DevOps</span>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag"><i class="fa-solid fa-arrows-spin"></i> Agile / Scrum</span>
+              <span class="skill-tag"><i class="fa-solid fa-pencil"></i> Clean API Design</span>
+              <span class="skill-tag highlight"><i class="fa-solid fa-infinity"></i> CI/CD Automation Pipelines</span>
+              <span class="skill-tag highlight"><i class="fa-solid fa-vial"></i> Unit & Integration Testing</span>
+              <span class="skill-tag"><i class="fa-solid fa-cubes-stacked"></i> SOLID & OOP Patterns</span>
+              <span class="skill-tag"><i class="fa-solid fa-eye"></i> UI/UX Best Practices</span>
+              <span class="skill-tag"><i class="fa-solid fa-chart-line"></i> High Availability & Low Latency</span>
+              <span class="skill-tag"><i class="fa-solid fa-people-arrows"></i> Cross-Functional Mentorship</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section (Timeline) -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-header text-center reveal-slide-up">
+          <span class="section-badge"><i class="fa-solid fa-briefcase"></i> CAREER TRACK</span>
+          <h2 class="section-title">Professional Experience</h2>
+          <p class="section-subtitle">Delivering high-throughput systems and driving measurable business results.</p>
+        </div>
+
+        <div class="timeline">
+          <!-- Role 1: UrbanPay -->
+          <div class="timeline-item reveal-slide-left">
+            <div class="timeline-marker">
+              <i class="fa-solid fa-building-columns"></i>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <div class="role-badge">Lead Fintech Backend Role</div>
+                  <h3 class="role-title">Senior Backend Developer</h3>
+                  <h4 class="company-name"><i class="fa-solid fa-building"></i> UrbanPay</h4>
+                </div>
+                <div class="timeline-period">
+                  <i class="fa-regular fa-calendar-check"></i> Jan 2021 – Dec 2024
+                </div>
+              </div>
+              <ul class="timeline-achievements">
+                <li>
+                  <i class="fa-solid fa-arrow-trend-up"></i>
+                  <span><strong>Monolith to Microservices:</strong> Led the strategic transition of legacy monolithic payment services to high-performance microservices using <strong>Java Spring Boot</strong> and <strong>Go</strong>, boosting system throughput and scalability by <strong>50%</strong>.</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  <span><strong>Multi-Tenant Gateway SaaS:</strong> Designed and engineered core components of a multi-tenant payment gateway as a service (SaaS), enabling fintechs and merchants to securely integrate, authorize, and process transactions.</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-shield"></i>
+                  <span><strong>99.9% High Availability:</strong> Engineered and optimized backend web services using Java, Node.js, Python Flask, and Go, ensuring <strong>99.9% uptime</strong> under rigorous high-volume payment processing conditions.</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-bolt"></i>
+                  <span><strong>Host/Scheme Routing Acceleration:</strong> Built and optimized transactional switching logic and database queries to handle complex host/scheme routing, accelerating transaction processing speeds by <strong>30%</strong>.</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-layer-group"></i>
+                  <span><strong>High-Throughput Concurrency:</strong> Leveraged robust multi-threading and concurrency models to seamlessly handle thousands of simultaneous webhooks during peak financial traffic hours.</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-vial"></i>
+                  <span><strong>Comprehensive Testing:</strong> Authored extensive unit and integration suites in Spring Boot and Go ecosystems to guarantee absolute code reliability and transaction stability.</span>
+                </li>
+              </ul>
+              <div class="timeline-stack">
+                <span>Java Spring Boot</span>
+                <span>Go (Golang)</span>
+                <span>Python Flask</span>
+                <span>Node.js</span>
+                <span>Microservices</span>
+                <span>Redis</span>
+                <span>Docker</span>
+                <span>High Concurrency</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Role 2: Bolosom -->
+          <div class="timeline-item reveal-slide-right">
+            <div class="timeline-marker">
+              <i class="fa-solid fa-server"></i>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="role-title">Backend Developer</h3>
+                  <h4 class="company-name"><i class="fa-solid fa-building"></i> Bolosom</h4>
+                </div>
+                <div class="timeline-period">
+                  <i class="fa-regular fa-calendar-check"></i> 2023 – Present
+                </div>
+              </div>
+              <ul class="timeline-achievements">
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  <span>Developed robust, secure backend APIs with <strong>Java Spring Boot, Laravel, Go, and Node.js</strong> to power high-traffic mobile and web applications.</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  <span>Designed highly scalable database schemas and optimized complex queries for low-latency transaction and reporting performance.</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  <span>Introduced automated <strong>CI/CD pipelines</strong> and Dockerized local & staging environments to streamline deployment efficiency and developer velocity.</span>
+                </li>
+              </ul>
+              <div class="timeline-stack">
+                <span>Java Spring Boot</span>
+                <span>Go</span>
+                <span>Laravel</span>
+                <span>Node.js</span>
+                <span>PostgreSQL</span>
+                <span>Docker</span>
+                <span>CI/CD</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Role 3: IGHUB -->
+          <div class="timeline-item reveal-slide-left">
+            <div class="timeline-marker">
+              <i class="fa-solid fa-cubes"></i>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="role-title">Full-Stack Developer</h3>
+                  <h4 class="company-name"><i class="fa-solid fa-building"></i> IGHUB</h4>
+                </div>
+                <div class="timeline-period">
+                  <i class="fa-regular fa-calendar-check"></i> 2023 – Present
+                </div>
+              </div>
+              <ul class="timeline-achievements">
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  <span>Built and maintained scalable web applications using <strong>React, Django, and Next.js</strong>, delivering responsive, accessible user interfaces.</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  <span>Developed robust internal tools to streamline multi-platform data synchronization and automated stakeholder reporting.</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  <span>Collaborated closely with cross-functional UI/UX designers and product managers to translate complex business requirements into elegant technical architectures.</span>
+                </li>
+              </ul>
+              <div class="timeline-stack">
+                <span>React</span>
+                <span>Next.js</span>
+                <span>Django</span>
+                <span>Python</span>
+                <span>REST APIs</span>
+                <span>UI/UX Standards</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Role 4: Ukamart -->
+          <div class="timeline-item reveal-slide-right">
+            <div class="timeline-marker">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="role-title">Website Manager</h3>
+                  <h4 class="company-name"><i class="fa-solid fa-building"></i> Ukamart</h4>
+                </div>
+                <div class="timeline-period">
+                  <i class="fa-regular fa-calendar-check"></i> Sept 2022 – Present
+                </div>
+              </div>
+              <ul class="timeline-achievements">
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  <span>Managed end-to-end e-commerce operations, optimizing site uptime, checkout performance, and checkout conversions.</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  <span>Spearheaded data-driven SEO strategies and product catalog optimizations that produced significant organic traffic gains.</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  <span>Engineered custom scripts to automate daily product updates and inventory sync, reducing manual operational maintenance by <strong>40%</strong>.</span>
+                </li>
+              </ul>
+              <div class="timeline-stack">
+                <span>E-Commerce</span>
+                <span>Automation Scripts</span>
+                <span>SEO Strategy</span>
+                <span>Performance Tuning</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Projects Section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header text-center reveal-slide-up">
+          <span class="section-badge"><i class="fa-solid fa-rocket"></i> FEATURED WORK</span>
+          <h2 class="section-title">Key Projects & Live Deployments</h2>
+          <p class="section-subtitle">Production platforms, fintech gateways, e-commerce engines, and distributed architectures engineered for scale.</p>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="filter-controls reveal-slide-up delay-100">
+          <button class="filter-btn active" data-filter="all">All Systems</button>
+          <button class="filter-btn" data-filter="fintech">Fintech & Switching</button>
+          <button class="filter-btn" data-filter="ecommerce">E-Commerce</button>
+          <button class="filter-btn" data-filter="logistics">Logistics & Real-Time</button>
+          <button class="filter-btn" data-filter="platforms">Web & Mobile</button>
+          <button class="filter-btn" data-filter="civic">Civic & Emergency</button>
+        </div>
+
+        <div class="projects-grid" id="projects-container">
+          <!-- Project 1: BillFrame -->
+          <div class="project-card reveal-slide-up delay-100" data-category="fintech">
+            <div class="project-media-wrapper">
+              <img src="assets/projects/billframe.png" alt="BillFrame Fintech Invoicing Platform" class="project-thumb-img" loading="lazy" />
+              <div class="project-media-overlay">
+                <span class="project-live-indicator">
+                  <span class="pulse-live-dot"></span> billframe.com.ng
+                </span>
+                <a href="https://www.billframe.com.ng" target="_blank" rel="noopener noreferrer" class="btn-live-link">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> Visit Live
+                </a>
+              </div>
+            </div>
+            <div class="project-card-inner">
+              <div class="project-header">
+                <div class="project-icon-box"><i class="fa-solid fa-file-invoice-dollar"></i></div>
+                <div>
+                  <h3 class="project-title">BillFrame – Automated Invoicing & Payment Switch</h3>
+                  <span class="project-metric"><i class="fa-solid fa-bolt"></i> Automated B2B Billing & Settlements</span>
+                </div>
+              </div>
+              <p class="project-description">
+                Enterprise billing and payment switching solution designed for businesses to automate recurring customer invoicing, webhook payment verification, and reconciliation.
+              </p>
+              <div class="project-highlights-box">
+                <div class="ph-item"><i class="fa-solid fa-check"></i> Automated invoice generation & webhook payment verification</div>
+                <div class="ph-item"><i class="fa-solid fa-check"></i> Payment switching integration with idempotent processing</div>
+                <div class="ph-item"><i class="fa-solid fa-check"></i> Multi-currency accounts & merchant ledger reporting</div>
+              </div>
+              <div class="project-tags">
+                <span>Java Spring Boot</span>
+                <span>Go (Golang)</span>
+                <span>Payment Switch</span>
+                <span>Redis</span>
+                <span>PostgreSQL</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-sm btn-outline view-details-btn" data-project="billframe">
+                  <i class="fa-solid fa-circle-info"></i> Architecture Specs
+                </button>
+                <a href="https://www.billframe.com.ng" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-icon" title="Open billframe.com.ng">
+                  <i class="fa-solid fa-globe"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2: Ukamart -->
+          <div class="project-card reveal-slide-up delay-200" data-category="ecommerce">
+            <div class="project-media-wrapper">
+              <img src="assets/projects/ukamart.png" alt="Ukamart E-Commerce Platform" class="project-thumb-img" loading="lazy" />
+              <div class="project-media-overlay">
+                <span class="project-live-indicator">
+                  <span class="pulse-live-dot"></span> ukamart.com
+                </span>
+                <a href="https://ukamart.com" target="_blank" rel="noopener noreferrer" class="btn-live-link">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> Visit Live
+                </a>
+              </div>
+            </div>
+            <div class="project-card-inner">
+              <div class="project-header">
+                <div class="project-icon-box"><i class="fa-solid fa-cart-shopping"></i></div>
+                <div>
+                  <h3 class="project-title">Ukamart – Multi-Vendor Retail Marketplace</h3>
+                  <span class="project-metric"><i class="fa-solid fa-gauge-high"></i> 40% Automation & High SEO Traffic</span>
+                </div>
+              </div>
+              <p class="project-description">
+                High-traffic e-commerce marketplace managed and optimized end-to-end. Engineered custom automated scripting for product sync, site speed optimizations, and robust checkout uptime.
+              </p>
+              <div class="project-highlights-box">
+                <div class="ph-item"><i class="fa-solid fa-check"></i> Automated daily catalog update scripts reducing manual workload by 40%</div>
+                <div class="ph-item"><i class="fa-solid fa-check"></i> Streamlined checkout flow resulting in measurable conversion gains</div>
+                <div class="ph-item"><i class="fa-solid fa-check"></i> Technical SEO architecture and structured metadata optimization</div>
+              </div>
+              <div class="project-tags">
+                <span>E-Commerce</span>
+                <span>PHP</span>
+                <span>Node.js</span>
+                <span>Automation Scripts</span>
+                <span>SEO Tuning</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-sm btn-outline view-details-btn" data-project="ukamart">
+                  <i class="fa-solid fa-circle-info"></i> Architecture Specs
+                </button>
+                <a href="https://ukamart.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-icon" title="Open ukamart.com">
+                  <i class="fa-solid fa-globe"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3: MyShop24 -->
+          <div class="project-card reveal-slide-up delay-300" data-category="ecommerce">
+            <div class="project-media-wrapper">
+              <img src="assets/projects/myshop24.png" alt="MyShop24 Online Store Platform" class="project-thumb-img" loading="lazy" />
+              <div class="project-media-overlay">
+                <span class="project-live-indicator">
+                  <span class="pulse-live-dot"></span> myshop24.ng
+                </span>
+                <a href="https://myshop24.ng" target="_blank" rel="noopener noreferrer" class="btn-live-link">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> Visit Live
+                </a>
+              </div>
+            </div>
+            <div class="project-card-inner">
+              <div class="project-header">
+                <div class="project-icon-box"><i class="fa-solid fa-store"></i></div>
+                <div>
+                  <h3 class="project-title">MyShop24 – 24/7 Digital Storefront Platform</h3>
+                  <span class="project-metric"><i class="fa-solid fa-shield"></i> Secure Instant Checkout</span>
+                </div>
+              </div>
+              <p class="project-description">
+                Fast, responsive online retail storefront offering seamless catalog browsing, instant multi-gateway checkout, order tracking, and mobile-optimized merchant management.
+              </p>
+              <div class="project-highlights-box">
+                <div class="ph-item"><i class="fa-solid fa-check"></i> Mobile-first accessible UI with sub-second page loads</div>
+                <div class="ph-item"><i class="fa-solid fa-check"></i> Real-time inventory status synchronization and price updates</div>
+                <div class="ph-item"><i class="fa-solid fa-check"></i> Integrated payment processing with automated customer receipts</div>
+              </div>
+              <div class="project-tags">
+                <span>React</span>
+                <span>Next.js</span>
+                <span>Node.js</span>
+                <span>Payment Gateway</span>
+                <span>PostgreSQL</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-sm btn-outline view-details-btn" data-project="myshop24">
+                  <i class="fa-solid fa-circle-info"></i> Architecture Specs
+                </button>
+                <a href="https://myshop24.ng" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-icon" title="Open myshop24.ng">
+                  <i class="fa-solid fa-globe"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4: QuickDrop -->
+          <div class="project-card reveal-slide-up delay-400" data-category="logistics">
+            <div class="project-media-wrapper">
+              <img src="assets/projects/quickdrop.png" alt="QuickDrop Logistics Network" class="project-thumb-img" loading="lazy" />
+              <div class="project-media-overlay">
+                <span class="project-live-indicator">
+                  <span class="pulse-live-dot"></span> quickdrop.ng
+                </span>
+                <a href="https://www.quickdrop.ng" target="_blank" rel="noopener noreferrer" class="btn-live-link">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> Visit Live
+                </a>
+              </div>
+            </div>
+            <div class="project-card-inner">
+              <div class="project-header">
+                <div class="project-icon-box"><i class="fa-solid fa-truck-fast"></i></div>
+                <div>
+                  <h3 class="project-title">QuickDrop – On-Demand Logistics & Delivery</h3>
+                  <span class="project-metric"><i class="fa-solid fa-location-crosshairs"></i> Real-Time Telemetry & Dispatch</span>
+                </div>
+              </div>
+              <p class="project-description">
+                Urban logistics dispatch platform connecting parcel senders with on-demand delivery couriers. Features dynamic route dispatching, real-time vehicle telemetry, and status webhooks.
+              </p>
+              <div class="project-highlights-box">
+                <div class="ph-item"><i class="fa-solid fa-check"></i> Real-time courier telemetry via low-latency WebSockets</div>
+                <div class="ph-item"><i class="fa-solid fa-check"></i> Automated geofencing status transitions & client push alerts</div>
+                <div class="ph-item"><i class="fa-solid fa-check"></i> Algorithmic route dispatching for minimal transit delays</div>
+              </div>
+              <div class="project-tags">
+                <span>Go (Golang)</span>
+                <span>Node.js</span>
+                <span>WebSockets</span>
+                <span>React</span>
+                <span>GIS Telemetry</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-sm btn-outline view-details-btn" data-project="quickdrop">
+                  <i class="fa-solid fa-circle-info"></i> Architecture Specs
+                </button>
+                <a href="https://www.quickdrop.ng" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-icon" title="Open quickdrop.ng">
+                  <i class="fa-solid fa-globe"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 5: TapConnect -->
+          <div class="project-card reveal-slide-up delay-100" data-category="platforms">
+            <div class="project-media-wrapper">
+              <img src="assets/projects/tapconnect.png" alt="TapConnect Smart NFC Platform" class="project-thumb-img" loading="lazy" />
+              <div class="project-media-overlay">
+                <span class="project-live-indicator">
+                  <span class="pulse-live-dot"></span> tapconnect.ng
+                </span>
+                <a href="https://tapconnect.ng" target="_blank" rel="noopener noreferrer" class="btn-live-link">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> Visit Live
+                </a>
+              </div>
+            </div>
+            <div class="project-card-inner">
+              <div class="project-header">
+                <div class="project-icon-box"><i class="fa-solid fa-wifi"></i></div>
+                <div>
+                  <h3 class="project-title">TapConnect – Smart NFC & Digital Networking</h3>
+                  <span class="project-metric"><i class="fa-solid fa-qrcode"></i> Instant Contactless Identity Exchange</span>
+                </div>
+              </div>
+              <p class="project-description">
+                Smart digital identity and contactless networking platform powering physical NFC cards and digital dynamic QR profiles with analytics dashboards and instant CRM contact downloads.
+              </p>
+              <div class="project-highlights-box">
+                <div class="ph-item"><i class="fa-solid fa-check"></i> Contactless NFC protocol encoding and dynamic vCard generation</div>
+                <div class="ph-item"><i class="fa-solid fa-check"></i> Lead management dashboard with profile view engagement analytics</div>
+                <div class="ph-item"><i class="fa-solid fa-check"></i> Cross-platform mobile UX optimized for iOS & Android devices</div>
+              </div>
+              <div class="project-tags">
+                <span>React Native</span>
+                <span>React</span>
+                <span>Node.js</span>
+                <span>NFC Protocols</span>
+                <span>MongoDB</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-sm btn-outline view-details-btn" data-project="tapconnect">
+                  <i class="fa-solid fa-circle-info"></i> Architecture Specs
+                </button>
+                <a href="https://tapconnect.ng" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-icon" title="Open tapconnect.ng">
+                  <i class="fa-solid fa-globe"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 6: Migra -->
+          <div class="project-card reveal-slide-up delay-200" data-category="platforms">
+            <div class="project-media-wrapper">
+              <img src="assets/projects/migra.png" alt="Migra Relocation Technology" class="project-thumb-img" loading="lazy" />
+              <div class="project-media-overlay">
+                <span class="project-live-indicator">
+                  <span class="pulse-live-dot"></span> migra.ng
+                </span>
+                <a href="https://migra.ng" target="_blank" rel="noopener noreferrer" class="btn-live-link">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> Visit Live
+                </a>
+              </div>
+            </div>
+            <div class="project-card-inner">
+              <div class="project-header">
+                <div class="project-icon-box"><i class="fa-solid fa-passport"></i></div>
+                <div>
+                  <h3 class="project-title">Migra – Global Mobility & Relocation Tech</h3>
+                  <span class="project-metric"><i class="fa-solid fa-shield-halved"></i> Automated Eligibility & Case Vault</span>
+                </div>
+              </div>
+              <p class="project-description">
+                Cross-border mobility and relocation tech platform streamlining immigration eligibility assessments, secure document vault uploads, and case milestone tracking for international travelers.
+              </p>
+              <div class="project-highlights-box">
+                <div class="ph-item"><i class="fa-solid fa-check"></i> Structured application workflow engine with conditional pathing</div>
+                <div class="ph-item"><i class="fa-solid fa-check"></i> Secure encrypted file vault for passport & credential storage</div>
+                <div class="ph-item"><i class="fa-solid fa-check"></i> Automated stage progression notifications and consultant inbox</div>
+              </div>
+              <div class="project-tags">
+                <span>Python (Django)</span>
+                <span>React</span>
+                <span>RESTful APIs</span>
+                <span>PostgreSQL</span>
+                <span>Docker</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-sm btn-outline view-details-btn" data-project="migra">
+                  <i class="fa-solid fa-circle-info"></i> Architecture Specs
+                </button>
+                <a href="https://migra.ng" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-icon" title="Open migra.ng">
+                  <i class="fa-solid fa-globe"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 7: ResQLink -->
+          <div class="project-card reveal-slide-up delay-300" data-category="civic">
+            <div class="project-media-wrapper">
+              <img src="assets/projects/resqlink.png" alt="ResQLink Emergency Response Platform" class="project-thumb-img" loading="lazy" />
+              <div class="project-media-overlay">
+                <span class="project-live-indicator">
+                  <span class="pulse-live-dot"></span> resqlink.org.ng
+                </span>
+                <a href="https://resqlink.org.ng/" target="_blank" rel="noopener noreferrer" class="btn-live-link">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> Visit Live
+                </a>
+              </div>
+            </div>
+            <div class="project-card-inner">
+              <div class="project-header">
+                <div class="project-icon-box"><i class="fa-solid fa-kit-medical"></i></div>
+                <div>
+                  <h3 class="project-title">ResQLink – Rapid Emergency Response System</h3>
+                  <span class="project-metric"><i class="fa-solid fa-truck-medical"></i> Critical Incident Telemetry</span>
+                </div>
+              </div>
+              <p class="project-description">
+                High-priority incident response and emergency telemetry platform connecting distress callers, emergency coordinators, and first responders with real-time location dispatch.
+              </p>
+              <div class="project-highlights-box">
+                <div class="ph-item"><i class="fa-solid fa-check"></i> Sub-second incident routing to closest responder units</div>
+                <div class="ph-item"><i class="fa-solid fa-check"></i> Multi-channel emergency triggers (Web, SMS, and Automated Voice)</div>
+                <div class="ph-item"><i class="fa-solid fa-check"></i> High-availability incident coordination dashboard</div>
+              </div>
+              <div class="project-tags">
+                <span>Java Spring Boot</span>
+                <span>WebSockets</span>
+                <span>PostgreSQL</span>
+                <span>React</span>
+                <span>Emergency Telemetry</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-sm btn-outline view-details-btn" data-project="resqlink">
+                  <i class="fa-solid fa-circle-info"></i> Architecture Specs
+                </button>
+                <a href="https://resqlink.org.ng/" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-icon" title="Open resqlink.org.ng">
+                  <i class="fa-solid fa-globe"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 8: SCCDR -->
+          <div class="project-card reveal-slide-up delay-400" data-category="civic">
+            <div class="project-media-wrapper">
+              <img src="assets/projects/sccdr.png" alt="SCCDR Alternative Dispute Resolution Portal" class="project-thumb-img" loading="lazy" />
+              <div class="project-media-overlay">
+                <span class="project-live-indicator">
+                  <span class="pulse-live-dot"></span> sccdr.org.ng
+                </span>
+                <a href="http://sccdr.org.ng/" target="_blank" rel="noopener noreferrer" class="btn-live-link">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> Visit Live
+                </a>
+              </div>
+            </div>
+            <div class="project-card-inner">
+              <div class="project-header">
+                <div class="project-icon-box"><i class="fa-solid fa-scale-balanced"></i></div>
+                <div>
+                  <h3 class="project-title">SCCDR – Dispute Resolution & Legal Portal</h3>
+                  <span class="project-metric"><i class="fa-solid fa-gavel"></i> Digital Case Filing & Management</span>
+                </div>
+              </div>
+              <p class="project-description">
+                Official institutional web portal for the Standing Conference on Mediation & Dispute Resolution. Features digital case filing, mediation session coordination, and legal document vaults.
+              </p>
+              <div class="project-highlights-box">
+                <div class="ph-item"><i class="fa-solid fa-check"></i> Secure digital intake for legal dispute submissions</div>
+                <div class="ph-item"><i class="fa-solid fa-check"></i> Encrypted case file storage with strict confidentiality controls</div>
+                <div class="ph-item"><i class="fa-solid fa-check"></i> Accessible institutional UI built for legal professionals</div>
+              </div>
+              <div class="project-tags">
+                <span>Next.js</span>
+                <span>React</span>
+                <span>Node.js</span>
+                <span>Secure Filing</span>
+                <span>Accessibility</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-sm btn-outline view-details-btn" data-project="sccdr">
+                  <i class="fa-solid fa-circle-info"></i> Architecture Specs
+                </button>
+                <a href="http://sccdr.org.ng/" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-icon" title="Open sccdr.org.ng">
+                  <i class="fa-solid fa-globe"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project: Zenith Edge Investment -->
+          <div class="project-card reveal-slide-up delay-200" data-category="fintech">
+            <div class="project-media-wrapper">
+              <img src="assets/projects/zenithedge.png" alt="Zenith Edge Investment Platform" class="project-thumb-img" loading="lazy" />
+              <div class="project-media-overlay">
+                <span class="project-live-indicator">
+                  <span class="pulse-live-dot"></span> zenith-edge-investment
+                </span>
+                <a href="https://zenith-edge-investment.onrender.com/" target="_blank" rel="noopener noreferrer" class="btn-live-link">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> Visit Live
+                </a>
+              </div>
+            </div>
+            <div class="project-card-inner">
+              <div class="project-header">
+                <div class="project-icon-box"><i class="fa-solid fa-chart-line"></i></div>
+                <div>
+                  <h3 class="project-title">Zenith Edge – Automated Wealth & Asset Investment</h3>
+                  <span class="project-metric"><i class="fa-solid fa-shield-halved"></i> Real-Time Yield & Asset Tracking</span>
+                </div>
+              </div>
+              <p class="project-description">
+                High-security digital investment and wealth growth portal featuring automated returns calculation, portfolio telemetry, secure wallet funding, and transaction ledgers.
+              </p>
+              <div class="project-highlights-box">
+                <div class="ph-item"><i class="fa-solid fa-check"></i> Automated portfolio yield calculation & compounding returns</div>
+                <div class="ph-item"><i class="fa-solid fa-check"></i> Secure wallet funding with automated deposit reconciliation</div>
+                <div class="ph-item"><i class="fa-solid fa-check"></i> Multi-tier authentication & encrypted transaction ledger</div>
+              </div>
+              <div class="project-tags">
+                <span>Java Spring Boot</span>
+                <span>React</span>
+                <span>PostgreSQL</span>
+                <span>Redis</span>
+                <span>Fintech</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-sm btn-outline view-details-btn" data-project="zenithedge">
+                  <i class="fa-solid fa-circle-info"></i> Architecture Specs
+                </button>
+                <a href="https://zenith-edge-investment.onrender.com/" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-icon" title="Open Zenith Edge">
+                  <i class="fa-solid fa-globe"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project: MyVilla Africa -->
+          <div class="project-card reveal-slide-up delay-300" data-category="platforms">
+            <div class="project-media-wrapper">
+              <img src="assets/projects/myvillaafrica.png" alt="MyVilla Africa Vacation Booking" class="project-thumb-img" loading="lazy" />
+              <div class="project-media-overlay">
+                <span class="project-live-indicator">
+                  <span class="pulse-live-dot"></span> myvillaafricaa
+                </span>
+                <a href="https://myvillaafricaa.onrender.com/" target="_blank" rel="noopener noreferrer" class="btn-live-link">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> Visit Live
+                </a>
+              </div>
+            </div>
+            <div class="project-card-inner">
+              <div class="project-header">
+                <div class="project-icon-box"><i class="fa-solid fa-hotel"></i></div>
+                <div>
+                  <h3 class="project-title">MyVilla Africa – Luxury Property & Vacation Booking</h3>
+                  <span class="project-metric"><i class="fa-solid fa-calendar-check"></i> Dynamic Calendar Availability</span>
+                </div>
+              </div>
+              <p class="project-description">
+                Luxury vacation property booking platform enabling travelers to discover African premier villas, verify host ratings, view dates in real time, and complete reservation checkouts.
+              </p>
+              <div class="project-highlights-box">
+                <div class="ph-item"><i class="fa-solid fa-check"></i> Dynamic reservation calendar preventing double-booking race conditions</div>
+                <div class="ph-item"><i class="fa-solid fa-check"></i> Multi-currency payment integration for local and international guests</div>
+                <div class="ph-item"><i class="fa-solid fa-check"></i> Host listing portal with automated guest communication webhooks</div>
+              </div>
+              <div class="project-tags">
+                <span>React</span>
+                <span>Next.js</span>
+                <span>Node.js</span>
+                <span>MongoDB</span>
+                <span>Payment Gateway</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-sm btn-outline view-details-btn" data-project="myvillaafrica">
+                  <i class="fa-solid fa-circle-info"></i> Architecture Specs
+                </button>
+                <a href="https://myvillaafricaa.onrender.com/" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-icon" title="Open MyVilla Africa">
+                  <i class="fa-solid fa-globe"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project: Lunchio -->
+          <div class="project-card reveal-slide-up delay-200" data-category="ecommerce">
+            <div class="project-media-wrapper">
+              <img src="assets/projects/lunchio.png" alt="Lunchio Food Ordering Platform" class="project-thumb-img" loading="lazy" />
+              <div class="project-media-overlay">
+                <span class="project-live-indicator">
+                  <span class="pulse-live-dot"></span> lunchio.onrender.com
+                </span>
+                <a href="https://lunchio.onrender.com/" target="_blank" rel="noopener noreferrer" class="btn-live-link">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> Visit Live
+                </a>
+              </div>
+            </div>
+            <div class="project-card-inner">
+              <div class="project-header">
+                <div class="project-icon-box"><i class="fa-solid fa-utensils"></i></div>
+                <div>
+                  <h3 class="project-title">Lunchio – On-Demand Meal & Food Ordering Platform</h3>
+                  <span class="project-metric"><i class="fa-solid fa-fire-burner"></i> Automated Kitchen Order Dispatch</span>
+                </div>
+              </div>
+              <p class="project-description">
+                Interactive meal subscription and corporate food ordering platform featuring dynamic digital menus, real-time kitchen preparation queues, and instant contactless checkout.
+              </p>
+              <div class="project-highlights-box">
+                <div class="ph-item"><i class="fa-solid fa-check"></i> Real-time kitchen order dispatch and preparation status telemetry</div>
+                <div class="ph-item"><i class="fa-solid fa-check"></i> Interactive customizable menu builder with dietary tags</div>
+                <div class="ph-item"><i class="fa-solid fa-check"></i> Automated customer receipt notifications and multi-payment checkout</div>
+              </div>
+              <div class="project-tags">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>Express</span>
+                <span>MongoDB</span>
+                <span>Payment Gateway</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-sm btn-outline view-details-btn" data-project="lunchio">
+                  <i class="fa-solid fa-circle-info"></i> Architecture Specs
+                </button>
+                <a href="https://lunchio.onrender.com/" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-icon" title="Open Lunchio">
+                  <i class="fa-solid fa-globe"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 9: High-Concurrency Payment Switching Engine -->
+          <div class="project-card reveal-slide-up delay-100" data-category="fintech">
+            <div class="project-media-wrapper" style="background: #030712; display: flex; align-items: center; justify-content: center; padding: 2rem;">
+              <div style="text-align: center; color: var(--accent-ice);">
+                <i class="fa-solid fa-shuffle" style="font-size: 3.5rem; margin-bottom: 0.75rem; color: var(--accent-ice);"></i>
+                <div style="font-family: var(--font-mono); font-size: 1rem; font-weight: 700; color: #ffffff;">ISO-8583 / Scheme Routing Daemon</div>
+                <div style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-dim);">10,000+ RPS Throughput • Sub-18ms Latency</div>
+              </div>
+              <div class="project-media-overlay">
+                <span class="project-live-indicator">
+                  <span class="pulse-live-dot"></span> Core Switch Engine
+                </span>
+                <button class="btn-live-link view-details-btn" data-project="switchEngine">
+                  <i class="fa-solid fa-terminal"></i> Inspect Architecture
+                </button>
+              </div>
+            </div>
+            <div class="project-card-inner">
+              <div class="project-header">
+                <div class="project-icon-box"><i class="fa-solid fa-bolt"></i></div>
+                <div>
+                  <h3 class="project-title">High-Concurrency Payment Switching Engine</h3>
+                  <span class="project-metric"><i class="fa-solid fa-server"></i> 10,000+ Requests Per Second</span>
+                </div>
+              </div>
+              <p class="project-description">
+                Standalone high-performance transactional switching engine built with <strong>Java (Spring Boot) and Go</strong>. Routes and processes over 10k requests/second for retail and fintech integration with automated host routing and circuit breaking.
+              </p>
+              <div class="project-highlights-box">
+                <div class="ph-item"><i class="fa-solid fa-check"></i> Scheme & BIN routing logic accelerating transit speeds by 30%</div>
+                <div class="ph-item"><i class="fa-solid fa-check"></i> Non-blocking Goroutine & Worker Pool handling webhook bursts</div>
+                <div class="ph-item"><i class="fa-solid fa-check"></i> Redis caching for sub-millisecond idempotency lookup</div>
+              </div>
+              <div class="project-tags">
+                <span>Java Spring Boot</span>
+                <span>Go (Golang)</span>
+                <span>Payment Switch</span>
+                <span>Redis</span>
+                <span>Microservices</span>
+                <span>Docker</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-sm btn-outline view-details-btn" data-project="switchEngine">
+                  <i class="fa-solid fa-circle-info"></i> Architecture Specs
+                </button>
+                <a href="https://github.com/emmanuelchukwuemka" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-icon" title="View GitHub Repos">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Developer Terminal Section -->
+    <section class="section terminal-section" id="terminal">
+      <div class="container">
+        <div class="section-header text-center reveal-slide-up">
+          <span class="section-badge"><i class="fa-solid fa-terminal"></i> INTERACTIVE SHELL</span>
+          <h2 class="section-title">Test Emmanuel's Systems CLI</h2>
+          <p class="section-subtitle">Type commands to simulate the payment switch, query tech stack, or inspect system metrics.</p>
+        </div>
+
+        <div class="terminal-wrapper reveal-slide-up delay-100">
+          <div class="terminal-bar">
+            <div class="window-buttons">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+            </div>
+            <div class="terminal-bar-title">
+              <i class="fa-solid fa-server"></i> emmanuel@switching-cluster-node-01: ~ (zsh)
+            </div>
+            <div class="terminal-bar-status">
+              <span class="status-indicator"></span> HEALTHY
+            </div>
+          </div>
+          
+          <div class="terminal-screen" id="terminal-screen">
+            <div class="terminal-line banner-line">
+              <span class="cli-info">Welcome to Emmanuel's Interactive Cluster CLI v2.4.0</span>
+            </div>
+            <div class="terminal-line">
+              <span class="cli-dim">Type <span class="cli-cmd-highlight">help</span> to view available system commands. Try: <span class="cli-cmd-highlight">simulate-tx</span>, <span class="cli-cmd-highlight">skills</span>, <span class="cli-cmd-highlight">stats</span>, <span class="cli-cmd-highlight">contact</span></span>
+            </div>
+            <div id="terminal-history"></div>
+            <div class="terminal-input-row">
+              <span class="terminal-prompt">guest@switch-node:$</span>
+              <input type="text" id="terminal-input" autocomplete="off" spellcheck="false" placeholder="type 'help' or 'simulate-tx'..." />
+            </div>
+          </div>
+
+          <div class="terminal-quick-cmds">
+            <span class="quick-label">Quick Actions:</span>
+            <button class="quick-cmd-btn" data-cmd="simulate-tx">simulate-tx</button>
+            <button class="quick-cmd-btn" data-cmd="stats">stats</button>
+            <button class="quick-cmd-btn" data-cmd="skills">skills</button>
+            <button class="quick-cmd-btn" data-cmd="experience">experience</button>
+            <button class="quick-cmd-btn" data-cmd="clear">clear</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements & Open Source Section -->
+    <section class="section community-section">
+      <div class="container">
+        <div class="community-grid">
+          <div class="community-card reveal-slide-left">
+            <div class="card-icon-round"><i class="fa-solid fa-code-branch"></i></div>
+            <h3>Open Source Contributor</h3>
+            <p>Active contributor to multiple open-source backend projects focused on developer productivity tools, framework performance optimizations, and backend utilities.</p>
+            <a href="https://github.com/emmanuelchukwuemka" target="_blank" rel="noopener noreferrer" class="link-arrow">
+              Explore Repositories <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="community-card reveal-slide-up">
+            <div class="card-icon-round"><i class="fa-solid fa-users"></i></div>
+            <h3>Engineering Mentorship</h3>
+            <p>Passionate about guiding junior and mid-level developers in mastering SOLID principles, architectural scalability, object-oriented patterns, and test-driven development.</p>
+            <span class="badge badge-subtle">Clean Code & OOP</span>
+          </div>
+
+          <div class="community-card reveal-slide-right">
+            <div class="card-icon-round"><i class="fa-solid fa-link"></i></div>
+            <h3>Blockchain & Security Research</h3>
+            <p>Dedicated to exploring decentralized applications, cryptographic proofs, smart contract security audits, and layer-2 settlement solutions.</p>
+            <span class="badge badge-subtle">Solidity & Web3 Systems</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header text-center reveal-slide-up">
+          <span class="section-badge"><i class="fa-solid fa-envelope-open-text"></i> CONNECT</span>
+          <h2 class="section-title">Let's Build Something Resilient Together</h2>
+          <p class="section-subtitle">Available for high-impact backend engineering, payment gateway consultations, and technical leadership.</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Info Cards -->
+          <div class="contact-info-col reveal-slide-left">
+            <div class="contact-channel-card">
+              <div class="channel-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div class="channel-details">
+                <span class="channel-title">Direct Email</span>
+                <a href="mailto:nwekee125@gmail.com" class="channel-link">nwekee125@gmail.com</a>
+              </div>
+              <button class="copy-btn" id="copy-email-btn" title="Copy to clipboard">
+                <i class="fa-regular fa-copy"></i>
+              </button>
+            </div>
+
+            <div class="contact-channel-card">
+              <div class="channel-icon"><i class="fa-solid fa-phone"></i></div>
+              <div class="channel-details">
+                <span class="channel-title">Phone & WhatsApp</span>
+                <a href="tel:+2348102510452" class="channel-link">+234 810 251 0452</a>
+              </div>
+              <a href="https://wa.me/2348102510452" target="_blank" rel="noopener noreferrer" class="channel-action-btn" title="Chat on WhatsApp">
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
+            </div>
+
+            <div class="contact-channel-card">
+              <div class="channel-icon"><i class="fa-brands fa-github"></i></div>
+              <div class="channel-details">
+                <span class="channel-title">GitHub Profile</span>
+                <a href="https://github.com/emmanuelchukwuemka" target="_blank" rel="noopener noreferrer" class="channel-link">github.com/emmanuelchukwuemka</a>
+              </div>
+              <a href="https://github.com/emmanuelchukwuemka" target="_blank" rel="noopener noreferrer" class="channel-action-btn" title="Open GitHub">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+
+            <div class="contact-channel-card">
+              <div class="channel-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="channel-details">
+                <span class="channel-title">Location</span>
+                <span class="channel-link">Umuahia, Abia, Nigeria (Open to Remote Globally)</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Contact Form -->
+          <div class="contact-form-col reveal-slide-right">
+            <div class="form-wrapper">
+              <h3 class="form-title"><i class="fa-solid fa-paper-plane"></i> Send a Message</h3>
+              <p class="form-desc">Whether you have a vacancy, architectural consultation, or project collaboration in mind, drop a line below.</p>
+              
+              <form id="portfolio-contact-form">
+                <div class="form-group-row">
+                  <div class="form-group">
+                    <label for="contact-name">Your Name</label>
+                    <input type="text" id="contact-name" name="name" placeholder="e.g. Alex Henderson" required />
+                  </div>
+                  <div class="form-group">
+                    <label for="contact-email">Your Email</label>
+                    <input type="email" id="contact-email" name="email" placeholder="alex@company.com" required />
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-subject">Subject / Project Interest</label>
+                  <input type="text" id="contact-subject" name="subject" placeholder="e.g. Senior Backend Role / Payment Switch Architecture" required />
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-message">Message</label>
+                  <textarea id="contact-message" name="message" rows="5" placeholder="Tell me about your technical goals, stack, or problem..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block pulse-btn" id="form-submit-btn">
+                  <i class="fa-solid fa-paper-plane"></i> Send Message Directly
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Project Details Modal -->
+  <div class="modal-overlay" id="project-modal" aria-hidden="true">
+    <div class="modal-card">
+      <button class="modal-close" id="modal-close-btn">&times;</button>
+      <div id="modal-body-content">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <a href="#hero" class="footer-logo">
+          &lt;nuel<span class="brand-accent">script</span>/&gt;
+        </a>
+        <p class="footer-tagline">Crafting resilient backend engines, payment gateways, and scalable architectures with precision.</p>
+      </div>
+
+      <div class="footer-nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#terminal">Terminal</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-socials">
+        <a href="https://github.com/emmanuelchukwuemka" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="mailto:nwekee125@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        <a href="tel:+2348102510452" aria-label="Phone"><i class="fa-solid fa-phone"></i></a>
+        <a href="https://emmanuelportfoilo.netlify.app" target="_blank" rel="noopener noreferrer" aria-label="Portfolio"><i class="fa-solid fa-globe"></i></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024–2026 Nweke Emmanuel Ugwa. Designed for High Performance & Scalability.</p>
+    </div>
+  </footer>
+
+  <!-- Scroll To Top Button -->
+  <button id="back-to-top" class="back-to-top-btn" title="Back to top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <!-- Floating Quick Contact Dock -->
+  <div class="floating-contact-dock">
+    <a href="https://wa.me/2348102510452" target="_blank" rel="noopener noreferrer" class="floating-btn fab-whatsapp" aria-label="Chat on WhatsApp">
+      <i class="fa-brands fa-whatsapp"></i>
+      <span class="floating-tooltip">WhatsApp: +234 810 251 0452</span>
+    </a>
+    <a href="mailto:nwekee125@gmail.com" class="floating-btn fab-email" aria-label="Send an Email">
+      <i class="fa-solid fa-envelope"></i>
+      <span class="floating-tooltip">nwekee125@gmail.com</span>
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
