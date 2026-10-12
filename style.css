@@ -508,6 +508,11 @@ body {
   align-items: center;
 }
 
+.hero-content,
+.hero-visual {
+  min-width: 0;
+}
+
 .status-pill {
   display: inline-flex;
   align-items: center;
